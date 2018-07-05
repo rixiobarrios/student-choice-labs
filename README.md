@@ -50,13 +50,27 @@ Express back-end from a React front-end. It works similarly to using Passport wi
 Submit your MERN app with full test coverage (every component has tests written
 for it). Create a coverage report using the `--coverage` flag.
 
+#### Bonus
+
+Research End-to-End (e2e) testing and implement it.
+
+*Hint: [Puppeteer](https://github.com/GoogleChrome/puppeteer) is a good tool for implementing e2e testing.
+
 ### Redux
 
-Transition all state in your application to be managed by Redux.
+Transition all state in your application to be managed by Redux. For this one, use static data as your state (i.e. not from your API)
+
+#### Bonus
+
+Switch from static data to data from your back-end.
 
 ### Authentication
 
 Make it so users can sign up and sign in and only authenticated users can perform CRUD on your model.
+
+#### Bonus
+
+Integrate your JWT authentication with React-Router, so that only authenticated users can visit certain pages in your React front-end.
 
 ## [License](LICENSE)
 
