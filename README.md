@@ -54,7 +54,7 @@ for it). Create a coverage report using the `--coverage` flag.
 
 Research End-to-End (e2e) testing and implement it.
 
-*Hint: [Puppeteer](https://github.com/GoogleChrome/puppeteer) is a good tool for implementing e2e testing.
+*Hint: [Puppeteer](https://github.com/GoogleChrome/puppeteer) is a good tool for implementing e2e testing.*
 
 ### Redux
 
