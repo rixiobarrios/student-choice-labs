@@ -1,61 +1,65 @@
 [![General Assembly Logo](https://camo.githubusercontent.com/1a91b05b8f4d44b5bbfb83abac2b0996d8e26c92/687474703a2f2f692e696d6775722e636f6d2f6b6538555354712e706e67)](https://generalassemb.ly/education/web-development-immersive)
 
-# Challenge Template
+# Advanced Topics in React
 
-Use this template to structure your READMEs for diagnostics.
-
-Be sure to include a recent [`LICENSE`](LICENSE) and Markdown linter
-configuration ([`.remarkrc`](.remarkrc)). Also, include an appropriate
-`.gitignore`; these are usually found in specific technology templates, for
-example [js-template](https://www.github.com/ga-wdi-boston/js-template).
+Developers have a choice between three advanced topics in React. Pick one of the
+three topics listed below and spend the lab period learning about that topic.
 
 ## Prerequisites
 
--   Topics with which developers should be familiar with.
--   Prerequisites are "just-in-time", so if I have a prerequisite that mentions
-    Sass, I would **not** need to include CSS as a prerequisite.
--   [Links to previous materials](https://www.github.com/ga-wdi-boston/example)
-    are often useful.
--   In a challenge, it is useful to link to reference material, such as talk
-    repositories.
+- React and Components.
+- Working with State and Props.
+- Building a MERN app.
 
 ## Instructions
 
-1.  Fork and clone this repository.
-1.  Change into the new directory.
-1.  Install dependencies.
-1.  Create and checkout a new branch to work on.
-1.  Fulfill the listed requirements.
+1. Pick one of the three topics listed below.
+1. Work through the lesson on that topic, completing all the exercises.
+1. Update your MERN lab submission with what you learned.
+1. Post an issue on this repository with a link to your MERN app.
 
-Starter code is available in [`lib/challenge.js`](lib/challenge.js). A pull
-request is not required, but it is necessary if you want a code review.
+You'll pick one of the three topics listed below and spend time learning it. Once you've worked through the provided lesson and exercises, update your MERN app with what you've learned. By that we mean, if you study testing with Jest and Enzyme, add tests to your MERN app; if you study authentication, add authentication to your MERN app; if you study Redux, add Redux to your MERN app.
 
-You may wish to refer to [FAQs](https://github.com/ga-wdi-boston/meta/wiki/)
-related to [forking,
-cloning](https://github.com/ga-wdi-boston/meta/wiki/ForkAndClone).
+At the end of the lab period, post an issue on this repository with a link to your MERN app.
+
+## Topics
+
+### 1. [Testing with Jest](https://git.generalassemb.ly/dc-wdi-react-redux/testing-in-react-with-jest-enzyme)
+
+Jest and Enzyme are tools for writing and running automated tests on your React
+components. As your app grows, it will become difficult (if not impossible) to
+manually test your components. Having automated tests means you wont have to!
+
+### 2. [Redux](https://git.generalassemb.ly/dc-wdi-react-redux/react-redux)
+
+Redux is a state management solution for React. Rather than manage your state
+inside your react compeonts, you'll manage it all within Redux. If you have a
+lot of state (i.e. your app is fairly large) or your state is complicated, Redux
+provides strict guidelines and a simple interface that alleviates the pain of
+managin state.
+
+### 3. [Authentication](https://git.generalassemb.ly/dc-wdi-react-redux/react-jwt-authentication)
+
+Authentication with JSON Web Tokens lets you authenticate requests to your
+Express back-end from a React front-end. It works similarly to using Passport with Sessions.
 
 ## Requirements
 
-Describe behavioral requirements as you'll be using them in tests. That is,
-list requirements in language that describes how the written code will be used,
-not how it will be written, with the exception of constraints you may wish to
-place on implementation. It's a good idea to include the below paragraph
-verbatim.
+### Testing with Jest
 
-You should be running `grunt nag` before diagnosing any bugs, since it finds
-some of the most common sources of errors. After `grunt nag` passes, you should
-run `grunt test` to run the included tests. Tests will tell you whether of not
-you've met these requirements.
+Submit your MERN app with full test coverage (every component has tests written
+for it). Create a coverage report using the `--coverage` flag.
 
-## Bonus
+### Redux
 
-Bonuses are described after the requirements, if included. They should be worked
-on **only after** passing requirements.
+Transition all state in your application to be managed by Redux.
 
-Sometimes, we ask questions that promote thinking critically about code.
+### Authentication
+
+Make it so users can sign up and sign in and only authenticated users can perform CRUD on your model.
 
 ## [License](LICENSE)
 
-1.  All content is licensed under a CC­BY­NC­SA 4.0 license.
-1.  All software code is licensed under GNU GPLv3. For commercial use or
-    alternative licensing, please contact legal@ga.co.
+1. All content is licensed under a CC­BY­NC­SA 4.0 license.
+1. All software code is licensed under GNU GPLv3. For commercial use or
+   alternative licensing, please contact legal@ga.co.
