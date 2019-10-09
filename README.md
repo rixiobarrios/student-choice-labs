@@ -36,7 +36,7 @@ Redux is a state management solution for React. Rather than manage your state
 inside your react compeonts, you'll manage it all within Redux. If you have a
 lot of state (i.e. your app is fairly large) or your state is complicated, Redux
 provides strict guidelines and a simple interface that alleviates the pain of
-managin state.
+managing state.
 
 ### 3. [Authentication](https://git.generalassemb.ly/dc-wdi-react-redux/react-jwt-authentication)
 
