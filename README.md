@@ -14,9 +14,8 @@ two topics listed below and spend the lab period learning about that topic.
 
 1. Pick one of the two topics listed below.
 1. Work through the lesson on that topic, completing all the exercises.
-1. Post an issue on this repository with a link to your work.
 
-You'll pick one of the two topics listed below and spend time learning it. At the end of the lab period, post an issue on this repository with a link to your work.
+You'll pick one of the two topics listed below and spend time learning it.
 
 ## Topics
 
