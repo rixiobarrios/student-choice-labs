@@ -20,8 +20,8 @@ You'll pick one of the two topics listed below and spend time learning it. At th
 
 ## Topics
 
-### 1. [Build a React Giphy Searcher](https://git.generalassemb.ly/seir-129/react-giphy-searcher)
-This is a code-along exercise for building a Giphy search app in React. This tutorial will walk you through all the steps needed to build [this application](https://react-giphy-searcher.herokuapp.com/). This is a good exercise to prepare you for project 2.
+### 1. [Build a React Giphy Searcher with React Hooks](https://git.generalassemb.ly/seir-129/react-giphy-searcher)
+This is a code-along exercise for building a Giphy search app in React using React Hooks. This tutorial will walk you through all the steps needed to build [this application](https://react-giphy-searcher.herokuapp.com/). This is a good exercise to prepare you for project 2.
 
 ### 2. [Redux]( https://git.generalassemb.ly/seir-129/react-redux)
 
